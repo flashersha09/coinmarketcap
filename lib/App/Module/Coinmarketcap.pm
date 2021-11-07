@@ -78,7 +78,6 @@ sub calculator {
 				$currencies{$code_from}->{$code_to} = $rate_from->{ $self->currency_default } / $rate_to->{ $self->currency_default };
 			}
 		}
-		return \%currencies;
 	}
 	return %currencies ? \%currencies : undef;
 }

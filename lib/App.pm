@@ -46,7 +46,6 @@ sub _init_hooks {
 		$tx->res->headers->header('Access-Control-Max-Age' => 3600 );
 		$tx->res->headers->header('Access-Control-Allow-aders' => 'Content-Type, Authorization, X-Requested-With');
 	});
-
 	return;
 }
 
